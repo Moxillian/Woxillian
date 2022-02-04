@@ -51,6 +51,8 @@ local ACTIONS = GLOBAL.ACTIONS
 local Action = GLOBAL.Action
 local TECH = GLOBAL.TECH
 
+modimport("healthdrain")
+
 -- The character select screen lines
 STRINGS.CHARACTER_TITLES.woxillian = "The Funny Bunny"
 STRINGS.CHARACTER_NAMES.woxillian = "Wox"
@@ -74,6 +76,7 @@ STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.WOX_HAT = ("Mmm poop hat.")
 STRINGS.CHARACTERS.WORTOX.DESCRIBE.WOX_HAT = ("I'm quite familiar with pocket dimensions.")
 STRINGS.CHARACTERS.WURT.DESCRIBE.WOX_HAT = ("Stupid hat!")
 STRINGS.CHARACTERS.WALTER.DESCRIBE.WOX_HAT = ("I appreciate the mystery, but it's not my style.")
+STRINGS.CHARACTERS.WANDA.DESCRIBE.WOX_HAT = ("Radiates a feeling of distortion... Does he tangle with dimensions as well?")
 -- Custom speech strings
 STRINGS.CHARACTERS.WOXILLIAN = require "speech_woxillian"
 
