@@ -51,8 +51,6 @@ local ACTIONS = GLOBAL.ACTIONS
 local Action = GLOBAL.Action
 local TECH = GLOBAL.TECH
 
-modimport("healthdrain")
-
 -- The character select screen lines
 STRINGS.CHARACTER_TITLES.woxillian = "The Funny Bunny"
 STRINGS.CHARACTER_NAMES.woxillian = "Wox"
