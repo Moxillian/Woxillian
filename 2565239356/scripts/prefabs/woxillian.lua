@@ -94,6 +94,11 @@ local master_postinit = function(inst)
 	inst.components.temperature.maxtemp = 100
 	inst.components.temperature.mintemp = -10
 	
+	  inst.components.builder.magic_bonus = 2
+
+  inst.components.sanity.night_drain_mult = 1.35
+  inst.components.sanity.neg_aura_mult = 0.9
+	
 end
 
 return MakePlayerCharacter("woxillian", prefabs, assets, common_postinit, master_postinit, prefabs)
